@@ -6,12 +6,12 @@ function App() {
   return (
     <>
       <section>
-        <div className='flex flex-wrap h-[100vh] bg-crema'>
+        <div className='flex flex-wrap h-[95vh] bg-[url("/src/assets/fondolanding.png")]'>
           <nav className='flex justify-between items-center w-full h-[15vh] z-10'>
             <div className='ml-[10%]'>
               <h3 className='font-FiraSans text-3xl font-bold text-gray-800'>FC</h3>
             </div>
-            <ul className='flex mr-[15%] gap-12'>
+            <ul className='flex mr-[15%] gap-6'>
               <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider drop-shadow-sm text-sm relative py-2 px-4 border-2 border-transparent hover:border-verde transition-all duration-400'>COACHING</li>
               <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider drop-shadow-sm text-sm relative py-2 px-4 border-2 border-transparent hover:border-verde transition-all duration-400'>WORKSHOPS</li>
               <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider drop-shadow-sm text-sm relative py-2 px-4 border-2 border-transparent hover:border-verde transition-all duration-400'>TEAM BUILDING</li>
@@ -19,7 +19,7 @@ function App() {
               <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider drop-shadow-sm text-sm relative py-2 px-4 border-2 border-transparent hover:border-verde transition-all duration-400'>SOBRE MI</li>
             </ul>
           </nav>
-            <div className='h-[85vh] w-[60%] relative'>
+            <div className='h-[80vh] w-[60%] relative'>
               <img src={fotolanding} alt="" className='h-[120%] w-auto absolute bottom-0' />
             </div>
             <div className='flex flex-col ml-[-8%] z-10 w-[40%]'>
