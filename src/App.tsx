@@ -11,12 +11,12 @@ function App() {
             <div className='ml-[10%]'>
               <h3 className='font-FiraSans text-3xl font-bold text-gray-800'>FC</h3>
             </div>
-            <ul className='flex mr-[20%] gap-12'>
-              <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider text-sm relative transition-all duration-500 before:content-[""] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r before:from-verdealt before:to-verde hover:before:w-full hover:before:opacity-100'>COACHING</li>
-              <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider text-sm relative transition-all duration-500 before:content-[""] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r before:from-verdealt before:to-verde hover:before:w-full hover:before:opacity-100'>WORKSHOPS</li>
-              <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider text-sm relative transition-all duration-500 before:content-[""] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r before:from-verdealt before:to-verde hover:before:w-full hover:before:opacity-100'>TEAM BUILDING</li>
-              <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider text-sm relative transition-all duration-500 before:content-[""] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r before:from-verdealt before:to-verde hover:before:w-full hover:before:opacity-100'>LIDERAZGO</li>
-              <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider text-sm relative transition-all duration-500 before:content-[""] before:absolute before:-bottom-2 before:left-0 before:w-0 before:h-1 before:rounded-full before:opacity-0 before:transition-all before:duration-500 before:bg-gradient-to-r before:from-verdealt before:to-verde hover:before:w-full hover:before:opacity-100'>SOBRE MI</li>
+            <ul className='flex mr-[15%] gap-12'>
+              <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider drop-shadow-sm text-sm relative py-2 px-4 border-2 border-transparent hover:border-verde transition-all duration-400'>COACHING</li>
+              <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider drop-shadow-sm text-sm relative py-2 px-4 border-2 border-transparent hover:border-verde transition-all duration-400'>WORKSHOPS</li>
+              <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider drop-shadow-sm text-sm relative py-2 px-4 border-2 border-transparent hover:border-verde transition-all duration-400'>TEAM BUILDING</li>
+              <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider drop-shadow-sm text-sm relative py-2 px-4 border-2 border-transparent hover:border-verde transition-all duration-400'>LIDERAZGO</li>
+              <li className='cursor-pointer font-FiraSans text-verdealt tracking-wider drop-shadow-sm text-sm relative py-2 px-4 border-2 border-transparent hover:border-verde transition-all duration-400'>SOBRE MI</li>
             </ul>
           </nav>
             <div className='h-[85vh] w-[60%] relative'>
