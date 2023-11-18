@@ -13,7 +13,8 @@ export default {
         'Source': ['Source Serif 4', 'serif'],
         'FiraSans': ['Fira Sans', 'sans-serif'],
         'Garamond': ['EB Garamond', 'serif'],
-        'Poppins': ['Poppins', 'sans-serif']
+        'Poppins': ['Poppins', 'sans-serif'],
+        'Cuprum': ['Cuprum', 'sans-serif']
       },
       colors: {
         'verde': '#AEC8A4',
