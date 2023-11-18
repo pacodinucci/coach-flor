@@ -1,5 +1,16 @@
 import fotolanding from './assets/fotolanding.png'
 import star from './assets/star.svg'
+import fclogo from "./assets/fcsinfondo.png"
+import tallerfoto from "./assets/talleres2.png"
+import workshops from "./assets/workshop.png"
+import pen from "./assets/pen.svg"
+import coaching from "./assets/coaching.png"
+import rainbow from "./assets/rainbow.svg"
+import team from "./assets/teambuilding.png"
+import ball from "./assets/ball.svg"
+import mate from "./assets/florconmate.png"
+import linkedin from "./assets/linkedin.svg"
+import instagram from "./assets/instagram.svg"
 
 function App() {
 
@@ -38,7 +49,7 @@ function App() {
         <div className='h-[70vh] bg-marronalt flex justify-center'>
           <div className='w-[45%] flex items-center ml-20'>
             <div className='flex flex-col justify-center items-center gap-2 ml-40 border-2 border-zinc-200 p-10 px-20 rounded-full'>
-              <img src="/src/assets/fcsinfondo.png" alt="" className='h-[40vh]' />
+              <img src={fclogo} alt="" className='h-[40vh]' />
               <h3 className='font-FiraSans text-3xl text-zinc-200'>FC | TALENT</h3>
             </div>
           </div>
@@ -56,7 +67,7 @@ function App() {
         </div>
         <div className='h-[90vh] flex'>
           <div className='h-full w-[50vw] flex-col'>
-            <img src="/src/assets/talleres2.png" alt="" className='h-full' />
+            <img src={tallerfoto} alt="" className='h-full' />
           </div>
           <div className='w-[50vw] flex justify-center items-center bg-zinc-100 '>
             <div className='flex flex-col justify-center gap-12 w-[70%]'>
@@ -96,32 +107,32 @@ function App() {
         <div className='h-[90vh] flex justify-center items-center'>
           <div className='h-full w-[80%] flex justify-center items-center gap-20'>
             <div className='border-2 rounded-sm h-3/5 w-1/4 flex flex-col gap-6 items-center shadow-md hover:shadow-lg hover:scale-105 transition-all duration-700'>
-              <img src="/src/assets/workshop.png" alt="" className='mt-6' />
+              <img src={workshops} alt="" className='mt-6' />
               <h3 className='text-3xl font-Poppins'>WORKSHOPS</h3>
               <ul className='w-4/5 flex flex-col gap-4 font-semibold'>
-                <li className='flex gap-4'><img src="/src/assets/pen.svg" alt="" className='w-6' />Habilidades humanas</li>
-                <li className='flex gap-4'><img src="/src/assets/pen.svg" alt="" className='w-6' />Comunicación Asertiva</li>
-                <li className='flex gap-4'><img src="/src/assets/pen.svg" alt="" className='w-6' />Habilidades comerciales y visión del negocio</li>
+                <li className='flex gap-4'><img src={pen} alt="" className='w-6' />Habilidades humanas</li>
+                <li className='flex gap-4'><img src={pen} alt="" className='w-6' />Comunicación Asertiva</li>
+                <li className='flex gap-4'><img src={pen} alt="" className='w-6' />Habilidades comerciales y visión del negocio</li>
               </ul>
               <span className='bg-sky-900 px-6 py-2 text-white hover:bg-opacity-70 cursor-pointer rounded-sm'>LEER MÁS</span>
             </div>
             <div className='border-2 rounded-sm h-3/5 w-1/4 flex flex-col gap-6 items-center shadow-md hover:shadow-lg hover:scale-105 transition-all duration-700'>
-              <img src="/src/assets/coaching.png" alt="" className='mt-6' />
+              <img src={coaching} alt="" className='mt-6' />
               <h3 className='text-3xl font-Poppins'>COACHING</h3>
               <ul className='w-4/5 flex flex-col gap-4 font-semibold'>
-                <li className='flex gap-4'><img src="/src/assets/rainbow.svg" alt="" className='w-6' />Proceso de cambio, descubrimiento y redifinición</li>
-                <li className='flex gap-4'><img src="/src/assets/rainbow.svg" alt="" className='w-6' />Sesiones individuales y grupales</li>
-                <li className='flex gap-4'><img src="/src/assets/rainbow.svg" alt="" className='w-6' />Coaching de Liderazgo</li>
+                <li className='flex gap-4'><img src={rainbow} alt="" className='w-6' />Proceso de cambio, descubrimiento y redifinición</li>
+                <li className='flex gap-4'><img src={rainbow} alt="" className='w-6' />Sesiones individuales y grupales</li>
+                <li className='flex gap-4'><img src={rainbow} alt="" className='w-6' />Coaching de Liderazgo</li>
               </ul>
               <span className='bg-sky-900 px-6 py-2 text-white hover:bg-opacity-70 cursor-pointer rounded-sm'>LEER MÁS</span>
             </div>
             <div className='border-2 rounded-sm h-3/5 w-1/4 flex flex-col gap-6 items-center shadow-md hover:shadow-lg hover:scale-105 transition-all duration-700'>
-              <img src="/src/assets/teambuilding.png" alt="" className='mt-6' />
+              <img src={team} alt="" className='mt-6' />
               <h3 className='text-3xl font-Poppins'>TEAM BUILDING</h3>
               <ul className='w-4/5 flex flex-col gap-4 font-semibold'>
-                <li className='flex gap-4'><img src="/src/assets/ball.svg" alt="" className='w-6' />Confianza y pertenencia</li>
-                <li className='flex gap-4'><img src="/src/assets/ball.svg" alt="" className='w-6' />Dinamismo y alto rendimiento</li>
-                <li className='flex gap-4'><img src="/src/assets/ball.svg" alt="" className='w-6' />Orientación a objetivos</li>
+                <li className='flex gap-4'><img src={ball} alt="" className='w-6' />Confianza y pertenencia</li>
+                <li className='flex gap-4'><img src={ball} alt="" className='w-6' />Dinamismo y alto rendimiento</li>
+                <li className='flex gap-4'><img src={ball} alt="" className='w-6' />Orientación a objetivos</li>
               </ul>
               <span className='bg-sky-900 px-6 py-2 text-white hover:bg-opacity-70 cursor-pointer rounded-sm'>LEER MÁS</span>
             </div>
@@ -132,7 +143,7 @@ function App() {
       <section className='flex justify-center'>
         <div className='h-[90vh] w-[95vw] px-12 bg-zinc-100 flex gap-32'>
           <div className='h-full flex items-center'>
-            <img src="/src/assets/florconmate.png" alt="" className='w-[31vw]' />
+            <img src={mate} alt="" className='w-[31vw]' />
           </div>
           <div className='w-[40vw] flex flex-col py-20 gap-12'>
             <h2 className='font-Cuprum font-bold text-6xl'>Soy Flor Carra</h2>
@@ -148,8 +159,8 @@ function App() {
           <h3 className='font-FiraSans text-3xl text-zinc-200'>FC | TALENT</h3>
         </div>
         <div className='flex gap-8'>
-          <img src="/src/assets/linkedin.svg" alt="" className='w-12' />
-          <img src="/src/assets/instagram.svg" alt="" className='w-12' />
+          <img src={linkedin} alt="" className='w-12' />
+          <img src={instagram} alt="" className='w-12' />
         </div>
       </footer>
     </>
