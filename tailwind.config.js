@@ -12,12 +12,14 @@ export default {
         'Varela': ['Varela', 'sans-serif'],
         'Source': ['Source Serif 4', 'serif'],
         'FiraSans': ['Fira Sans', 'sans-serif'],
-        'Garamond': ['EB Garamond', 'serif']
+        'Garamond': ['EB Garamond', 'serif'],
+        'Poppins': ['Poppins', 'sans-serif']
       },
       colors: {
         'verde': '#AEC8A4',
-        'verdealt': '#819479',
-        'crema': '#FFFFF5'
+        'verdealt': '#739665',
+        'crema': '#FFFFF5',
+        'marronalt': '#42351E'
       }
     },
   },
